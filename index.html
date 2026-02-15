@@ -146,11 +146,11 @@ button {
   <h2>ʏᴏᴜʀ ᴏᴛʜᴇʀ ᴍᴇ</h2>
 
   <div class="card" id="chatBox">
-    <div class="bot message"><i>ผมคนที่ 2 รอฟังอยู่นะ...</i></div>
+    <div class="bot message"><i>พี่รอฟังอยู่นะ...</i></div>
   </div>
 
   <div style="margin-top:15px;">
-    <input id="userInput" type="text" placeholder="พิมพ์คุยกับผมได้เลย...">
+    <input id="userInput" type="text" placeholder="พิมพ์คุยกับพี่ได้เลย...">
     <button onclick="sendMessage()">Send</button>
   </div>
 </section>
@@ -183,7 +183,7 @@ function sendMessage() {
   // bot reply (simple AI mock)
   const botMsg = document.createElement("div");
   botMsg.className = "message bot";
-  botMsg.textContent = "ผมคนที่ 2 ได้ยินแล้วนะ :)";
+  botMsg.textContent = "พี่รับรู้แล้วนะ :)";
   chatBox.appendChild(botMsg);
 
   chatBox.scrollTop = chatBox.scrollHeight;
